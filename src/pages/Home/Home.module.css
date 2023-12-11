@@ -1,0 +1,154 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.listaDeTarefas {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 5px 20px #5c5c5c;
+}
+
+.Contador {
+  font-size: 25px;
+  color: #202020;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1e9e9;
+  border:2px solid #e2e2e2;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b246f2;
+  border: 2px solid #e2e2e2;
+}
+
+.formTarefa {
+  width: 50%;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0px 5px 20px #5c5c5c;
+}
+
+h1 {
+  font-size: 50px;
+  color: #202020;
+}
+
+.inativo {
+  display: none;
+}
+
+.aviso {
+  width: 100%;
+  padding: 10px;
+  background-color: #bb2123bf;
+  color: #611314;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bodyForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.bodyForm input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 30px;
+  color: #202020;
+}
+
+.bodyForm button {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b246f2;
+  font-size: 40px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .formTarefa {
+    width: 75%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  ul{
+    gap: 5px;
+    max-height: 150px;
+  }
+
+  .aviso {
+    font-size: 15px;
+  }
+
+  .texto {
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .bodyForm button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  .listaDeTarefas {
+    width: 75%;
+  }
+}

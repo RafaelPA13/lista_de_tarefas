@@ -1,0 +1,125 @@
+@keyframes rotate {
+  100% {
+    background-position: 50% 25%;
+  }
+}
+
+.body {
+  animation: rotate 5s infinite alternate linear;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(../../assets/Fundo.svg);
+  background-size: cover;
+}
+
+.formulario {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+  text-align: center;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.formulario h1 {
+  font-size: 50px;
+  color: #202020;
+}
+
+.inativo {
+  display: none;
+}
+
+.aviso {
+  width: 100%;
+  padding: 10px;
+  background-color: #bb2123bf;
+  color: #611314;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e2e2e2;
+  font-size: 20px;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #202020;
+  font-weight: bold;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #ffc31b;
+  background-color: #ffc31b;
+  color: #fff;
+  transition: 0.1s ease-in-out;
+}
+
+.formulario button:hover {
+  transition: 0.1s ease-in-out;
+  background-color: #fff;
+  color: #ffc31b;
+}
+
+@media (max-width: 767px) {
+  .body {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario {
+    width: 80%;
+    height: 55%;
+    border-radius: 25px;
+    padding: 25px;
+    gap: 10px;
+  }
+
+  .formulario h1 {
+    font-size: 35px;
+  }
+
+  .formulario input,
+  .formulario button {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .link {
+    font-size: 20px;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .aviso{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,69 @@
+.tarefa {
+  width: 99%;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox p {
+  font-size: 20px;
+  color: #202020;
+}
+
+.tarefa button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarefaConcluida {
+  width: 99%;
+  background-color: #a5a5a5;
+  text-decoration: line-through;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarefaConcluida button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .tarefa {
+    height: 10vh;
+  }
+
+  .checkbox p {
+    font-size: 15px;
+    color: #202020;
+  }
+}

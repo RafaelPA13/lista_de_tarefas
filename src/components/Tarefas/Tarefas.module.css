@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 767px) {
-  .tarefa .tarefaConcluida{
+  .tarefa {
     height: 10vh;
   }
 

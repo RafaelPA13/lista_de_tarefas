@@ -89,7 +89,7 @@ function Home() {
           </button>
         </div>
       </form>
-      <div className={tarefasFiltradas.length == 0 ? style.esconder : style.listaDeTarefas}>
+      <div className={style.listaDeTarefas}>
         {tarefasFiltradas.length ? (
           <p
             className={style.Contador}

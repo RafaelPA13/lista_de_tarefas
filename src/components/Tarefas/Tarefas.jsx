@@ -7,16 +7,11 @@ function Tarefas({ tarefa, feito, deletar }) {
       <div className={style.checkbox}>
         <input
           type="checkbox"
-          checked={tarefa.completo ? "checked" : ""}
           onChange={() => {
             feito(tarefa);
           }}
         />
-        <p
-          onClick={() => {
-            feito(tarefa);
-          }}
-        >
+        <p>
           {tarefa.texto}
         </p>
       </div>

@@ -93,7 +93,7 @@ function Home() {
         {tarefasFiltradas.length ? (
           <p
             className={style.Contador}
-          >{`Você tem ${tarefas.length} tarefas`}</p>
+          >{`Você tem ${tarefasFiltradas.length} tarefas`}</p>
         ) : null}
         <ul>
           {tarefasFiltradas.map((item, i) => (

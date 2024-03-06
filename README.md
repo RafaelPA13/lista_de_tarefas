@@ -1,8 +1,20 @@
-# React + Vite
+# Lista de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma Lista de tarefas com login e registro, feita em react vite e firebase, utilizando authentication e firestore 
 
-Currently, two official plugins are available:
+## 👨‍💻 Autor
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Rafael Porto Annunciato
+
+## 🛠 Ferramentas 
+
+React, Firebase 
+
+## 🕹Teste agora
+
+https://lista-de-tarefas-xi-one.vercel.app
+
+## 🖥 Imagens
+
+
+## 📱 Imagens

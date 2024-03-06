@@ -48,7 +48,7 @@ function Registro() {
         />
         <input
           type="password"
-          placeholder="Senha:"
+          placeholder="Senha: mínimo 6 dígitos"
           value={senha}
           onChange={(e) => {
             setSenha(e.target.value);

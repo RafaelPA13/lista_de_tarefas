@@ -27,6 +27,11 @@ function Entrar() {
     }
   };
 
+  const logarRecrutador = () => {
+    logar('recrutador@email.com', 123456)
+    navigate('/home')
+  }
+
   return (
     <div className={style.body}>
       <form className={style.formulario} onSubmit={login}>
@@ -53,6 +58,7 @@ function Entrar() {
           <a href="/registro">Registrar-se</a>
         </div>
         <button onClick={login}>Entrar</button>
+        <button onClick={logarRecrutador}>Entrar como Recrutador(a)</button>
       </form>
     </div>
   );
